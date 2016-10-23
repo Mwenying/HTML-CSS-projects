@@ -1,0 +1,232 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+span{
+	color: white;
+}
+body{
+	font-family: Microsoft YaHei;
+	font-size: 12px;
+	line-height: 1.5;
+}
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+     @keyframes lb {
+            0%{
+                left: 0%;
+            }
+            25%{
+                left: -100%;
+            }
+            50%{
+                left: -200%;
+            }
+            75%{
+                left: -300%;
+            }
+            100%{
+                left: 0%;
+            }
+        }
+.topbar{
+	position:absolute;
+	width: 994px;
+	left: 50%;
+	margin-left: -490px;
+	z-index: 1000;
+}
+.opbg{
+	position: absolute;
+	z-index: 800;
+	top: 0;
+	width: 100%;
+	height: 150px;
+	background: transparent url(https://3gimg.qq.com/qq_product_operations/im/mobileqq/pc/5.4/s/topbg.png) repeat-x left top;
+	opacity: 1;
+}
+.qlogo{
+	float: left;
+	width: 179px;
+	padding-top: 76px;
+	background: transparent url(https://sqimg.qq.com/qq_product_operations/im/qqlogo/pclogo.png) no-repeat left 12px;
+}
+.snav{
+	text-align: right;
+	margin-top: 20px;
+}
+.flashData{
+	text-align: right;
+	color: white;
+}
+.mpage{
+	background-color: #009FCC;
+	width: 100%;
+	height: 800px;
+	margin:0 auto;
+}
+.fshow{
+	background-color: #009FCC;
+	position: relative;
+	width: 994px;
+	height: 800px;
+	margin: 0 auto;
+}
+.version{
+	position: absolute;
+	top: 337px;
+	right: 6px;
+	width: 123px;
+	height: 0;
+	padding-top: 34px;
+	background-image: url(https://sqimg.qq.com/qq_product_operations/im/pcqq/7/ver87.png);
+}
+.softinfo{
+	clear: both;
+	height: 20px;
+	padding: 10px 3px 0 0;
+	text-align: center;
+}
+.pointips{
+	background: transparent url(https://sqimg.qq.com/qq_product_operations/im/https_src/img/pcqq/d_normal.png) no-repeat 0 0;
+	position: absolute;
+	width: 72px;
+	height: 72px;
+	left: 50%;
+	top: 690px;
+}
+.wrap{
+	position: relative;
+	width: 994px;
+	height: 800px;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+	animation: lb 12s  cubic-bezier(0.3,0.4,0.3,1) 0s infinite;
+}
+.wrap li:nth-of-type(1){
+	display: block;
+}
+.wrap li:nth-of-type(2){
+	display: none;
+}
+.bnav li:hover{
+	background: transparent url(https://sqimg.qq.com/qq_product_operations/im/https_src/img/pcqq/bnav.png) no-repeat 0 center;
+}
+.bnav li{
+	float: left;
+	width: 16px;
+	height: 16px;
+	list-style: none;
+	background: transparent url(https://sqimg.qq.com/qq_product_operations/im/https_src/img/pcqq/bnav.png) no-repeat -20px center;
+}
+.bnav{
+	position: absolute;
+	left: 50.5%;
+	top: 770px;
+	z-index: 400;
+}
+.qpack{
+	position: absolute;
+	width: 285px;
+	top: 525px;
+	right: 6px;
+}
+.qpack a.downbtn{
+	float: right;
+	width: 285px;
+	padding-top: 76px;
+	background: transparent url(https://3gimg.qq.com/qq_product_operations/im/2015/pcbtn.png) no-repeat 0 0;
+}
+.bimg_1_leftIn{
+	width: 323px;
+	height: 749px;
+	background: transparent url(https://sqimg.qq.com/qq_product_operations/im/https_src/img/pcqq/b_1_1_md.png) no-repeat 0 0;
+	position: absolute;
+	top: 25px;
+	left: 60px;
+}
+.bimg_1_rightIn{
+	width: 469px;
+	height: 366px;
+	background: transparent url(https://sqimg.qq.com/qq_product_operations/im/https_src/img/pcqq/b_1_2_md.png) no-repeat 0 0;
+	position: absolute;
+	top: 260px;
+	left: 225px;
+}
+.btxt_1{
+	position: absolute;
+	right: 6px;
+	top: 397px;
+	width: 277px;
+	padding-top: 118px;
+	background: transparent url(https://sqimg.qq.com/qq_product_operations/im/https_src/img/pcqq/btxt_1.png) no-repeat 0 0;
+}
+.bimg_2_leftIn{
+	width: 720px;
+	height: 559px;
+	background: transparent url(https://sqimg.qq.com/qq_product_operations/im/https_src/img/pcqq/b_2_md.png) no-repeat 0 0;
+	position: absolute;
+	top: 110px;
+	left: -115px;
+}
+.btxt_2{
+	position: absolute;
+	right: 6px;
+	top: 400px;
+	width: 389px;
+	padding-top: 90px;
+	background: transparent url(https://sqimg.qq.com/qq_product_operations/im/https_src/img/pcqq/btxt_2.png) no-repeat 0 0;
+}
+.page2{
+	background-color: #00BBFF;
+	margin:0 auto;
+	position: relative;
+	width: 100%;
+	height: 650px;
+}
+.page2_leftIn{
+	position: absolute;
+	overflow: hidden;
+	width: 459px;
+	left: 100px;
+	top: 300px;
+	padding-top: 119px;
+	background: transparent url(https://sqimg.qq.com/qq_product_operations/im/pcqq/7/intro_txt_36.png) no-repeat 0 0;
+}
+.page2_rightIn{
+	position: absolute;
+	overflow: hidden;
+	width: 681px;
+	height: 520px;
+	right: 30px;
+	top: 40px;
+	background: transparent url(https://sqimg.qq.com/qq_product_operations/im/pcqq/7/fig_36.png) no-repeat 0 0;
+}
+.more{
+	width: 100%;
+	height: 140px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 18px;
+}
+.mtxt{
+	color: black;
+	padding-top: 55px;
+}
+.foot{
+	width: 100%;
+	height: 140px;
+	text-align: center;
+	background: #009FCC;
+}
+.ftxt{
+	padding-top: 55px;
+}
